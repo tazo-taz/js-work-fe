@@ -1,0 +1,39 @@
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #0000009e;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+.box {
+    width: 420px;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    border: 3px solid;
+}
+.title {
+    color: var(--dark-purple);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.body {
+    color: #585858;
+    font-size: 15px;
+}
+.btnsGroup {
+    margin-top: 10px;
+}
+.btn {
+    padding: 10px 21px;
+    border-radius: 100px;
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
