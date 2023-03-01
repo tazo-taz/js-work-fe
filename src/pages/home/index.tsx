@@ -45,8 +45,9 @@ export default function Home() {
 
   console.log(page);
   
-
-  if(inventoriesError || pagesError)return <Text color='red'>Something went wrong</Text>
+  console.log(inventoriesError || pagesError);
+  
+  // if(inventoriesError || pagesError)return <Text color='red'>Something went wrong</Text>
   
   const {count: pages} = pagesObj || {}
   return (
